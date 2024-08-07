@@ -26,6 +26,13 @@ const movies = [
         location: "Sala 4",
         description: "Descripción de la película 4.",
         poster: "img/imagen4.png"
+    },
+    {
+        title: "Película 5",
+        time: "00:00",
+        location: "Sala 4",
+        description: "Descripción de la película 4.",
+        poster: "img/imagen4.png"
     }
 ];
 
