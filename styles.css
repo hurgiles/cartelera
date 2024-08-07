@@ -52,7 +52,7 @@ main {
     width: 100%;
 }
 
-.movie h2 {
+.movie h5 {
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
@@ -109,4 +109,36 @@ footer {
     text-align: center;
     flex-shrink: 0;
     width: 100%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 767.98px) {
+    .movie {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .movie img {
+        width: 100%;
+    }
+
+    header, footer {
+        padding: 0.5rem 0;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
 }
