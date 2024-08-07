@@ -28,11 +28,32 @@ const movies = [
         poster: "img/imagen4.png"
     },
     {
-        title: "Película 5",
+        title: "Olympic's Disney 1",
         time: "00:00",
         location: "Sala 4",
         description: "Descripción de la película 4.",
-        poster: "img/imagen4.png"
+        poster: "img/Disney1.png"
+    },
+    {
+        title: "Olympic's Disney 2",
+        time: "00:00",
+        location: "Sala 4",
+        description: "Descripción de la película 4.",
+        poster: "img/Disney2.png"
+    },
+    {
+        title: "Olympic's Disney 3",
+        time: "00:00",
+        location: "Sala 4",
+        description: "Descripción de la película 4.",
+        poster: "img/Disney3.png"
+    },
+    {
+        title: "Olympic's Disney 4",
+        time: "00:00",
+        location: "Sala 4",
+        description: "Descripción de la película 4.",
+        poster: "img/Disney4.png"
     }
 ];
 
