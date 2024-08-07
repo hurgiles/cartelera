@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     movies.forEach(movie => {
         const movieElement = document.createElement("div");
-        movieElement.classList.add("col-md-3", "movie");
+        movieElement.classList.add("movie");
 
         movieElement.innerHTML = `
             <img src="${movie.poster}" alt="${movie.title} Poster" class="img-fluid">
