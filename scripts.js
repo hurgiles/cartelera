@@ -1,58 +1,58 @@
 const movies = [
     {
-        title: "Película 1",
-        time: "18:00",
-        location: "Sala 1",
-        description: "Descripción de la película 1.",
+        title: "Podcast 1",
+        time: "22:00",
+        location: "Milagro: Sala 1",
+        description: "¿El amor ya no existe?",
         poster: "img/imagen1.png"
     },
     {
-        title: "Película 2",
-        time: "20:00",
-        location: "Sala 2",
-        description: "Descripción de la película 2.",
+        title: "Podcast 2",
+        time: "22:00",
+        location: "Milagro: Sala 2",
+        description: "Lo que realmente quieren las mujeres.",
         poster: "img/imagen2.png"
     },
     {
-        title: "Película 3",
+        title: "Podcast 3",
         time: "22:00",
-        location: "Sala 3",
-        description: "Descripción de la película 3.",
+        location: "Milagro: Sala 3",
+        description: "La verdad sobre las relaciones a distancia.",
         poster: "img/imagen3.png"
     },
     {
-        title: "Película 4",
-        time: "00:00",
-        location: "Sala 4",
-        description: "Descripción de la película 4.",
+        title: "Podcast 4",
+        time: "22:00",
+        location: "Milagro: Sala 4",
+        description: "¿Por qué me gustan las mujeres difíciles?",
         poster: "img/imagen4.png"
     },
     {
         title: "Olympic's Disney 1",
-        time: "00:00",
-        location: "Sala 4",
-        description: "Descripción de la película 4.",
+        time: "22:00",
+        location: "Milagro: Sala I",
+        description: "Adivina 100 personajes.",
         poster: "img/Disney1.png"
     },
     {
         title: "Olympic's Disney 2",
-        time: "00:00",
-        location: "Sala 4",
-        description: "Descripción de la película 4.",
+        time: "22:00",
+        location: "Milagro: Sala II",
+        description: "Adivina la pelicula por la Música.",
         poster: "img/Disney2.png"
     },
     {
         title: "Olympic's Disney 3",
-        time: "00:00",
-        location: "Sala 4",
-        description: "Descripción de la película 4.",
+        time: "22:00",
+        location: "Milagro: Sala III",
+        description: "Adivina la Princesa.",
         poster: "img/Disney3.png"
     },
     {
         title: "Olympic's Disney 4",
-        time: "00:00",
-        location: "Sala 4",
-        description: "Descripción de la película 4.",
+        time: "22:00",
+        location: "Milagro: Sala IV",
+        description: "Adivina la Pelicula por los emojis.",
         poster: "img/Disney4.png"
     }
 ];
