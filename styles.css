@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* De celeste a azul */
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -103,7 +103,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* De celeste a azul */
     color: white;
     padding: 1rem 0;
     text-align: center;
