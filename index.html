@@ -4,26 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartelera de Cine</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-3">
         <h1>Cartelera de Cine</h1>
     </header>
-    <main>
-        <div class="movie-list" id="movie-list">
+    <main class="container my-4">
+        <div class="row" id="movie-list">
             <!-- Las películas se agregarán aquí mediante JavaScript -->
         </div>
-        <div class="movie-details" id="movie-details">
-            <button class="close-button" id="close-button">X</button>
-            <div id="details-content">
-                <!-- Detalles de la película se agregarán aquí mediante JavaScript -->
-            </div>
-        </div>
     </main>
-    <footer>
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
         <p>© 2024 Cartelera de Cine</p>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="movieModalLabel">Título de la Película</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="movieTime">Hora: </p>
+                    <p id="movieLocation">Lugar: </p>
+                    <p id="movieDescription">Descripción: </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
