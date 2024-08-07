@@ -69,9 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
     podcastTitle.classList.add("col-12", "text-center", "my-4");
     movieList.appendChild(podcastTitle);
 
+    const firstRow = document.createElement("div");
+    firstRow.classList.add("row", "justify-content-center");
+    movieList.appendChild(firstRow);
+
     movies.slice(0, 4).forEach(movie => {
         const movieElement = document.createElement("div");
-        movieElement.classList.add("movie");
+        movieElement.classList.add("col-md-3", "movie");
 
         movieElement.innerHTML = `
             <img src="${movie.poster}" alt="${movie.title} Poster" class="img-fluid">
@@ -87,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
             $('#movieModal').modal('show');
         });
 
-        movieList.appendChild(movieElement);
+        firstRow.appendChild(movieElement);
     });
 
     const disneyTitle = document.createElement("h2");
@@ -95,9 +99,13 @@ document.addEventListener("DOMContentLoaded", () => {
     disneyTitle.classList.add("col-12", "text-center", "my-4");
     movieList.appendChild(disneyTitle);
 
+    const secondRow = document.createElement("div");
+    secondRow.classList.add("row", "justify-content-center");
+    movieList.appendChild(secondRow);
+
     movies.slice(4).forEach(movie => {
         const movieElement = document.createElement("div");
-        movieElement.classList.add("movie");
+        movieElement.classList.add("col-md-3", "movie");
 
         movieElement.innerHTML = `
             <img src="${movie.poster}" alt="${movie.title} Poster" class="img-fluid">
@@ -113,6 +121,6 @@ document.addEventListener("DOMContentLoaded", () => {
             $('#movieModal').modal('show');
         });
 
-        movieList.appendChild(movieElement);
+        secondRow.appendChild(movieElement);
     });
 });
